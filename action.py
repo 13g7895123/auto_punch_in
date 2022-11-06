@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 from config.config import *
+from line_notify import *
 
 # 爬蟲配置
 driver_service = Service(executable_path=driver_path)
@@ -34,3 +35,9 @@ def punch_in():
 def punch_out():
     punch_out_btn = driver.find_element(By.XPATH, "//button[text()='打卡下班']")
     punch_out_btn.click()
+
+# 確認上班
+# def check_punch_in():
+
+# 確認下班
+# def check_punch_out():

@@ -9,4 +9,5 @@ web_url = 'https://clock.eng-astra.com.tw/clock-system.php'
 email = 'astra235@3tsai.com'
 pwd = 'Astrawm867'
 
-
+# Line Token
+token = 'W4Trvnii3ORUZpusao0lqIAsLVWFXqhoxTyyOwjVBb5'
