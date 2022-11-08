@@ -7,4 +7,4 @@ login()
 
 # 確認打卡(未打卡即進行打卡)
 # check_punch_in()
-# punch_in()
+punch_out()

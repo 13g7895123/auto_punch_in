@@ -73,8 +73,9 @@ WebDriver BiDi listening on ws://127.0.0.1:60222
 1667706406183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileNteQUF\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:60222/devtools/browser/8533a5e4-8d74-4801-a5a0-75e672d80ddd
-1667706832063	geckodriver	INFO	Listening on 127.0.0.1:60543
-1667706835118	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60544" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileLXndM8"
+1667727544601	Marionette	INFO	Stopped listening on port 60231
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "60544" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileLXndM8"
 1667706835729	Marionette	INFO	Marionette enabled
 1667706835737	Marionette	INFO	Listening on port 60553
 Read port: 60553
@@ -84,8 +85,9 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:60544/devtools/browser/84279ccf-39bc-447c-b479-56a295722e02
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
-1667709812943	geckodriver	INFO	Listening on 127.0.0.1:54153
-1667709816006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54154" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileiW1hAj"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667727543442	Marionette	INFO	Stopped listening on port 60553
+e-debugging-port" "54154" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileiW1hAj"
 1667709816427	Marionette	INFO	Marionette enabled
 1667709816433	Marionette	INFO	Listening on port 54163
 Read port: 54163
@@ -188,8 +190,9 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:60047/devtools/browser/82a66045-97c5-49e1-8b60-0d090f6c4b0c
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
-1667710540431	geckodriver	INFO	Listening on 127.0.0.1:49232
-1667710543498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49233" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile2oSDyk"
+1667727542698	Marionette	INFO	Stopped listening on port 60056
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "49233" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile2oSDyk"
 1667710544303	Marionette	INFO	Marionette enabled
 1667710544314	Marionette	INFO	Listening on port 49246
 Read port: 49246
@@ -268,3 +271,369 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1667710692024	Marionette	INFO	Stopped listening on port 57355
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 [Parent 23396, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667779033503	geckodriver	INFO	Listening on 127.0.0.1:53380
+1667779036594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53381" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilee9A98C"
+1667779037071	Marionette	INFO	Marionette enabled
+1667779037078	Marionette	INFO	Listening on port 53390
+Read port: 53390
+WebDriver BiDi listening on ws://127.0.0.1:53381
+1667779037228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilee9A98C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53381/devtools/browser/697a7a06-8e40-4375-b04a-78b486caade2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1667779043037	Marionette	INFO	Stopped listening on port 53390
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 20464, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667779049066	geckodriver	INFO	Listening on 127.0.0.1:53480
+1667779052094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53481" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilepUU1fT"
+1667779052582	Marionette	INFO	Marionette enabled
+1667779052592	Marionette	INFO	Listening on port 53490
+Read port: 53490
+WebDriver BiDi listening on ws://127.0.0.1:53481
+1667779052759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilepUU1fT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53481/devtools/browser/64f48272-ed8a-43c0-b04a-97d1c8be52ad
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1667779066436	Marionette	INFO	Stopped listening on port 53490
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 13108, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667779086362	geckodriver	INFO	Listening on 127.0.0.1:53881
+1667779089431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileqSJqro"
+1667779089870	Marionette	INFO	Marionette enabled
+1667779089876	Marionette	INFO	Listening on port 53891
+Read port: 53891
+WebDriver BiDi listening on ws://127.0.0.1:53882
+1667779090009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileqSJqro\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53882/devtools/browser/b63cb404-4df9-46a8-88ec-6ff5de3c340a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1667779110480	Marionette	INFO	Stopped listening on port 53891
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 24192, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667779112652	geckodriver	INFO	Listening on 127.0.0.1:53992
+1667779115725	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileL7CgnU"
+1667779116166	Marionette	INFO	Marionette enabled
+1667779116171	Marionette	INFO	Listening on port 54003
+WebDriver BiDi listening on ws://127.0.0.1:53993
+Read port: 54003
+1667779116453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileL7CgnU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53993/devtools/browser/a6a5bd76-0642-4de7-a392-ba1a419daca3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1667779141881	Marionette	INFO	Stopped listening on port 54003
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 20784, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667792844415	geckodriver	INFO	Listening on 127.0.0.1:63120
+1667792847537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63121" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilegNiFvT"
+1667792847928	Marionette	INFO	Marionette enabled
+1667792847934	Marionette	INFO	Listening on port 63130
+Read port: 63130
+WebDriver BiDi listening on ws://127.0.0.1:63121
+1667792848030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilegNiFvT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63121/devtools/browser/be9ecdd6-462b-4843-b77f-c655f1f21d32
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+JavaScript warning: resource://gre/modules/Troubleshoot.jsm, line 708: WebGL context was lost.
+JavaScript warning: resource://gre/modules/Troubleshoot.jsm, line 708: WebGL context was lost.
+1667792887814	Marionette	INFO	Stopped listening on port 63130
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667792889996	geckodriver	INFO	Listening on 127.0.0.1:63233
+1667792893023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63234" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileZ644BR"
+1667792893329	Marionette	INFO	Marionette enabled
+1667792893334	Marionette	INFO	Listening on port 63243
+Read port: 63243
+WebDriver BiDi listening on ws://127.0.0.1:63234
+1667792893425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileZ644BR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63234/devtools/browser/3fb4e1ff-2ef3-4d78-9796-7f2b70124aca
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1667792903314	Marionette	INFO	Stopped listening on port 63243
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667792905368	geckodriver	INFO	Listening on 127.0.0.1:63335
+1667792908422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63336" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileEhsA7p"
+1667792908739	Marionette	INFO	Marionette enabled
+1667792908744	Marionette	INFO	Listening on port 63346
+WebDriver BiDi listening on ws://127.0.0.1:63336
+Read port: 63346
+1667792908969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileEhsA7p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63336/devtools/browser/738b75c3-5b4f-4321-b47c-8892f26b5824
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1667792914607	Marionette	INFO	Stopped listening on port 63346
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 18088, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667792936749	geckodriver	INFO	Listening on 127.0.0.1:63439
+1667792939792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63440" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilekgRmp8"
+1667792940113	Marionette	INFO	Marionette enabled
+1667792940118	Marionette	INFO	Listening on port 63449
+WebDriver BiDi listening on ws://127.0.0.1:63440
+Read port: 63449
+1667792940341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilekgRmp8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63440/devtools/browser/1ca46397-f19a-4375-a706-714062ec40ed
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1667795875238	Marionette	INFO	Stopped listening on port 63449
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 32472, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\Temp\\rust_mozprofileDKSKFL"
+1667793026394	Marionette	INFO	Marionette enabled
+1667793026400	Marionette	INFO	Listening on port 63613
+Read port: 63613
+WebDriver BiDi listening on ws://127.0.0.1:63604
+1667793026517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileDKSKFL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63604/devtools/browser/2658e227-f866-4e26-9444-df42f8532cf3
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667795873993	Marionette	INFO	Stopped listening on port 63613
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 32688, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667880503411	geckodriver	INFO	Listening on 127.0.0.1:49228
+1667880506515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49229" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileRe9XKw"
+1667880506958	Marionette	INFO	Marionette enabled
+1667880506964	Marionette	INFO	Listening on port 49238
+WebDriver BiDi listening on ws://127.0.0.1:49229
+Read port: 49238
+1667880507223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileRe9XKw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49229/devtools/browser/fe1497d4-cbd0-42ff-ab7d-dc7a328a5577
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667880555879	Marionette	INFO	Stopped listening on port 49238
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667880558474	geckodriver	INFO	Listening on 127.0.0.1:49337
+1667880561500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49338" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofiletj99Ui"
+1667880561906	Marionette	INFO	Marionette enabled
+1667880561911	Marionette	INFO	Listening on port 49348
+Read port: 49348
+WebDriver BiDi listening on ws://127.0.0.1:49338
+1667880562023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofiletj99Ui\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49338/devtools/browser/e0d0da7e-0bc4-44ca-a4aa-0b6c1db7d399
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667881202623	Marionette	INFO	Stopped listening on port 49348
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 13708, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+on ws://127.0.0.1:49593
+1667880801659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilePNollX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49593/devtools/browser/498a7262-6f8f-42e0-955f-11e359746d41
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667881202607	Marionette	INFO	Stopped listening on port 49602
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 16372, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\Temp\\rust_mozprofileuT6naj"
+1667881070677	Marionette	INFO	Marionette enabled
+1667881070687	Marionette	INFO	Listening on port 52163
+Read port: 52163
+WebDriver BiDi listening on ws://127.0.0.1:52148
+1667881070873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileuT6naj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52148/devtools/browser/03f9d94f-177d-4a01-9a0e-00065ac200d2
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667881202842	Marionette	INFO	Stopped listening on port 52163
+[Parent 28964, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\\rust_mozprofileWqYTjQ"
+1667881110988	Marionette	INFO	Marionette enabled
+1667881110995	Marionette	INFO	Listening on port 52232
+Read port: 52232
+WebDriver BiDi listening on ws://127.0.0.1:52223
+1667881111204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileWqYTjQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52223/devtools/browser/2af62006-322f-4172-b07b-fd1b9c26cf72
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667881202616	Marionette	INFO	Stopped listening on port 52232
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 20488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\Temp\\rust_mozprofileDBQra4"
+1667881192557	Marionette	INFO	Marionette enabled
+1667881192568	Marionette	INFO	Listening on port 52899
+Read port: 52899
+WebDriver BiDi listening on ws://127.0.0.1:52886
+1667881192834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileDBQra4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52886/devtools/browser/bb5b8016-f012-42ed-8b2c-beaf3d072283
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667881202621	Marionette	INFO	Stopped listening on port 52899
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667881238474	geckodriver	INFO	Listening on 127.0.0.1:58975
+1667881241501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileF6GVQ7"
+1667881241907	Marionette	INFO	Marionette enabled
+1667881241912	Marionette	INFO	Listening on port 58985
+Read port: 58985
+WebDriver BiDi listening on ws://127.0.0.1:58976
+1667881242035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileF6GVQ7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58976/devtools/browser/0f9c7860-ff66-4e2e-b307-1c1c1762e880
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667886176450	Marionette	INFO	Stopped listening on port 58985
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667891229798	geckodriver	INFO	Listening on 127.0.0.1:61667
+1667891232811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61668" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilegl1kjP"
+1667891233345	Marionette	INFO	Marionette enabled
+1667891233353	Marionette	INFO	Listening on port 61680
+Read port: 61680
+WebDriver BiDi listening on ws://127.0.0.1:61668
+1667891233537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667891235411	geckodriver	INFO	Listening on 127.0.0.1:61685
+1667891238443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61686" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileX3Krbb"
+1667891238885	Marionette	INFO	Marionette enabled
+1667891238892	Marionette	INFO	Listening on port 61697
+WebDriver BiDi listening on ws://127.0.0.1:61686
+Read port: 61697
+1667891239156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileX3Krbb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61686/devtools/browser/2912f318-14aa-4ba2-8a95-6c3e314d09f7
+1667891241593	Marionette	INFO	Stopped listening on port 61697
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 31400, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667891268081	geckodriver	INFO	Listening on 127.0.0.1:61753
+1667891271120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61754" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilelazvCK"
+1667891271588	Marionette	INFO	Marionette enabled
+1667891271594	Marionette	INFO	Listening on port 61764
+Read port: 61764
+WebDriver BiDi listening on ws://127.0.0.1:61754
+1667891271768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilelazvCK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61754/devtools/browser/42e69b38-3354-42e3-a841-f4f39bc01dd2
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667900078925	Marionette	INFO	Stopped listening on port 61764
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 32820, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+[Parent 32820, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+7.0.0.1:61836
+1667891331332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileYr8wbH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61836/devtools/browser/c4979c6e-96b3-4fd4-bb30-96718b1969e6
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667900078716	Marionette	INFO	Stopped listening on port 61848
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 28564, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+tening on port 62020
+Read port: 62020
+WebDriver BiDi listening on ws://127.0.0.1:62009
+1667891407811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile0I4QHt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62009/devtools/browser/3d39e051-f999-4b31-87b8-10d678e780d9
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667900078691	Marionette	INFO	Stopped listening on port 62020
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 1328, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\\Temp\\rust_mozprofilegvqJjM"
+1667892291993	Marionette	INFO	Marionette enabled
+1667892292004	Marionette	INFO	Listening on port 62836
+Read port: 62836
+WebDriver BiDi listening on ws://127.0.0.1:62825
+1667892292216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilegvqJjM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62825/devtools/browser/d13c9009-8e87-4995-8be7-eac9209477c5
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667900078812	Marionette	INFO	Stopped listening on port 62836
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 21476, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+[Parent 21476, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 21476, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Settings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile3MfNcT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63061/devtools/browser/f29f7df7-e647-4386-bc0f-9edbdf162b8a
+1667892424871	Marionette	INFO	Stopped listening on port 63072
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667892806980	geckodriver	INFO	Listening on 127.0.0.1:63522
+1667892810018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileSEf8MM"
+1667892810538	Marionette	INFO	Marionette enabled
+1667892810550	Marionette	INFO	Listening on port 63534
+Read port: 63534
+WebDriver BiDi listening on ws://127.0.0.1:63523
+1667892810754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileSEf8MM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63523/devtools/browser/132b3e8f-0459-4d4f-a46b-d090edbf9b4a
+1667900078706	Marionette	INFO	Stopped listening on port 63534
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 31004, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\Temp\\rust_mozprofileVzeHXQ"
+1667892905874	Marionette	INFO	Marionette enabled
+1667892905883	Marionette	INFO	Listening on port 65203
+Read port: 65203
+WebDriver BiDi listening on ws://127.0.0.1:65190
+1667892906061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileVzeHXQ\\search.json.mozlz4", (void 0)))
+1667892908778	Marionette	INFO	Stopped listening on port 65203
+1667892908806	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667892941012	geckodriver	INFO	Listening on 127.0.0.1:58134
+1667892944039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileg3KCwx"
+1667892944599	Marionette	INFO	Marionette enabled
+1667892944607	Marionette	INFO	Listening on port 58146
+Read port: 58146
+WebDriver BiDi listening on ws://127.0.0.1:58135
+1667892944811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileg3KCwx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58135/devtools/browser/891fe18c-9106-43ce-9fb5-5dc59633f883
+1667892948244	Marionette	INFO	Stopped listening on port 58146
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667893025659	geckodriver	INFO	Listening on 127.0.0.1:50941
+1667893028688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50942" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilepFPiEf"
+1667893029235	Marionette	INFO	Marionette enabled
+1667893029244	Marionette	INFO	Listening on port 50954
+Read port: 50954
+WebDriver BiDi listening on ws://127.0.0.1:50942
+1667893029460	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilepFPiEf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50942/devtools/browser/56476299-c135-4c48-99d1-66c567cda825
+1667893035011	Marionette	INFO	Stopped listening on port 50954
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 31996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667893126486	geckodriver	INFO	Listening on 127.0.0.1:54139
+1667893129533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "--remote-debugging-port" "54140" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileoooQno"
+1667893130069	Marionette	INFO	Marionette enabled
+1667893130080	Marionette	INFO	Listening on port 54151
+Read port: 54151
+WebDriver BiDi listening on ws://127.0.0.1:54140
+1667893130265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileoooQno\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54140/devtools/browser/ce58b7b7-ff9c-4212-9776-3f1b680a2d73
+1667899981586	geckodriver	INFO	Listening on 127.0.0.1:50646
+1667899984704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50647" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilepbbX59"
+1667899985159	Marionette	INFO	Marionette enabled
+1667899985164	Marionette	INFO	Listening on port 50656
+WebDriver BiDi listening on ws://127.0.0.1:50647
+Read port: 50656
+1667899985416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilepbbX59\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50647/devtools/browser/2c1c7824-ea74-4e07-a1e1-361f8e475824
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+JavaScript error: https://clock.eng-astra.com.tw/js/all.js, line 2: ReferenceError: Notification is not defined
+1667900078783	Marionette	INFO	Stopped listening on port 50656
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
