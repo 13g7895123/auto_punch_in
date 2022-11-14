@@ -9,5 +9,6 @@ if os.path.isfile(file_path):
     for line in f.readlines():
         if line.rstrip() != '注意日期格式為"YYYY-mm-dd"' and line.rstrip() != '':
             except_date_list.append(line.rstrip())
+    f.close()
 else:
     print('File not exist')
