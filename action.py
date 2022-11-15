@@ -90,25 +90,33 @@ def punch_in():
         alert.accept()                  # 點擊確定
         punch_in_finish = check_punch_in(1)     # 確認打卡完成
         if punch_in_finish == 1:                # 1為打卡完成
-            line_notify('上班打卡作業完成')
+            line_notify('\n上班打卡作業完成')
         else:
-            line_notify('上班打卡作業未完成，請重新確認')
+            line_notify('\n上班打卡作業未完成，請重新確認')
     else:
-        line_notify('上班打卡作業未完成，請重新確認')
+        line_notify('\n上班打卡作業未完成，請重新確認')
+    driver.quit()
 
 
 # 打卡下班
 def punch_out():
     punch_out_able = check_punch_out(0)  # 確認可以打卡
     if punch_out_able == 1:              # 1為可以打卡
-        driver.find_element(By.XPATH, "//button[@class='btn btn-outline-danger']").click()  # 執行打卡
+        driver.find_element(By.XPATH, "//button[@class='btn btn-outline-danger ']").click()  # 執行打卡
         driver.find_element(By.XPATH, "//button[@class='btn btn-danger']").click()
         alert = driver.switch_to.alert  # 切換至警告視窗
         alert.accept()  # 點擊確定
         punch_out_finish = check_punch_out(1)  # 確認打卡完成
         if punch_out_finish == 1:              # 1為打卡完成
-            line_notify('下班打卡作業完成')
+            line_notify('\n下班打卡作業完成')
         else:
-            line_notify('下班打卡作業未完成，請重新確認')
+            line_notify('\n下班打卡作業未完成，請重新確認')
     else:
-        line_notify('下班打卡作業未完成，請重新確認')
+        line_notify('\n下班打卡作業未完成，請重新確認')
+    driver.quit()
+
+# 測試用
+# login()
+# driver.find_element(By.XPATH, "//button[@class='btn btn-outline-primary']").click()  # 執行打卡
+# input('test')
+# driver.quit()

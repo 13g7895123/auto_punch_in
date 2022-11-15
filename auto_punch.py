@@ -11,7 +11,7 @@ if today_weekday != 'Saturday' and today_weekday != 'Sunday':   # 周末不執�
         if '07:55' < now_time < '08:00' or '13:25' < now_time < '13:30':
             login()
             punch_in()
-        elif '12:00' < now_time < '12:05' or '17:30' < now_time < '17:35':
+        elif '12:00' < now_time < '12:05' or '17:30' < now_time < '17:40':
             login()
             punch_out()
         else:
