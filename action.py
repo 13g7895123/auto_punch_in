@@ -91,7 +91,6 @@ def punch_in():
         alert.accept()   # 點擊確定
         time.sleep(3)
         punch_in_finish = check_punch_in(1)     # 確認打卡完成
-        print('打卡狀態確認: ' + str(punch_in_finish))
         if punch_in_finish == 1:                # 1為打卡完成
             line_notify('\n上班打卡作業完成')
         else:
@@ -111,7 +110,6 @@ def punch_out():
         alert.accept()  # 點擊確定
         time.sleep(3)
         punch_out_finish = check_punch_out(1)  # 確認打卡完成
-        print('打卡狀態確認: ' + str(punch_out_finish))
         if punch_out_finish == 1:              # 1為打卡完成
             line_notify('\n下班打卡作業完成')
         else:
