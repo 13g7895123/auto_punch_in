@@ -1128,3 +1128,135 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1668470299465	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1668470299785	Marionette	INFO	Stopped listening on port 49611
 [Parent 9948, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668484813337	geckodriver	INFO	Listening on 127.0.0.1:54652
+1668484816427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-popup-blocking" "--remote-debugging-port" "54653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilenu7WME"
+*** You are running in headless mode.
+1668484816785	Marionette	INFO	Marionette enabled
+1668484816789	Marionette	INFO	Listening on port 54662
+WebDriver BiDi listening on ws://127.0.0.1:54653
+Read port: 54662
+1668484816992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilenu7WME\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54653/devtools/browser/d7cdf12c-65b4-4965-b5ab-f78e341a9640
+1668484849829	geckodriver	INFO	Listening on 127.0.0.1:54700
+1668484852886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-popup-blocking" "--remote-debugging-port" "54701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileXTHZYS"
+*** You are running in headless mode.
+1668484853223	Marionette	INFO	Marionette enabled
+1668484853227	Marionette	INFO	Listening on port 54710
+WebDriver BiDi listening on ws://127.0.0.1:54701
+Read port: 54710
+1668484853444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileXTHZYS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54701/devtools/browser/ffb6c6de-95d0-4e01-b8ce-61ccd38ce337
+1668484865550	geckodriver	INFO	Listening on 127.0.0.1:54750
+1668484868580	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-popup-blocking" "--remote-debugging-port" "54751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilej8tIru"
+*** You are running in headless mode.
+1668484868969	Marionette	INFO	Marionette enabled
+1668484868973	Marionette	INFO	Listening on port 54762
+Read port: 54762
+WebDriver BiDi listening on ws://127.0.0.1:54751
+1668484869083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilej8tIru\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54751/devtools/browser/37f355b9-e99e-4ff2-97a8-a63c7164eb37
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668484872086	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668484910265	geckodriver	INFO	Listening on 127.0.0.1:54804
+1668484913313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "54805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilealtExk"
+1668484913909	Marionette	INFO	Marionette enabled
+1668484913917	Marionette	INFO	Listening on port 54816
+Read port: 54816
+WebDriver BiDi listening on ws://127.0.0.1:54805
+1668484914097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilealtExk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54805/devtools/browser/bf1c11af-f5b7-412d-a7ed-0af9cc6e3146
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668484940989	Marionette	INFO	Stopped listening on port 54816
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 34692, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668484997961	geckodriver	INFO	Listening on 127.0.0.1:54903
+1668485001001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "54904" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilewaH4Tw"
+1668485001473	Marionette	INFO	Marionette enabled
+1668485001481	Marionette	INFO	Listening on port 54913
+Read port: 54913
+WebDriver BiDi listening on ws://127.0.0.1:54904
+1668485001669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilewaH4Tw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54904/devtools/browser/bf47507e-3413-474c-b7e2-17d964a3f3d1
+1668485012524	Marionette	INFO	Stopped listening on port 54913
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 12292, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668485023597	geckodriver	INFO	Listening on 127.0.0.1:54956
+1668485026623	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "54957" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilefd3VV6"
+1668485027788	Marionette	INFO	Marionette enabled
+1668485027815	Marionette	INFO	Listening on port 54966
+Read port: 54966
+WebDriver BiDi listening on ws://127.0.0.1:54957
+1668485028170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilefd3VV6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54957/devtools/browser/71241de6-c72c-406b-b112-c1ef79f527d4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668485076359	Marionette	INFO	Stopped listening on port 54966
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668489932044	geckodriver	INFO	Listening on 127.0.0.1:54711
+1668489935090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "54712" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile7OAcjm"
+1668489935430	Marionette	INFO	Marionette enabled
+1668489935434	Marionette	INFO	Listening on port 54721
+WebDriver BiDi listening on ws://127.0.0.1:54712
+Read port: 54721
+1668489935659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile7OAcjm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54712/devtools/browser/dfec33d0-0f35-4a8a-b6cf-31c87b678a46
+1668489950202	Marionette	INFO	Stopped listening on port 54721
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668489956187	geckodriver	INFO	Listening on 127.0.0.1:54757
+1668489959187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "54763" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilewEDjF0"
+1668489959529	Marionette	INFO	Marionette enabled
+1668489959533	Marionette	INFO	Listening on port 54772
+WebDriver BiDi listening on ws://127.0.0.1:54763
+Read port: 54772
+1668489959764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilewEDjF0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54763/devtools/browser/200272b7-ca92-48d7-b895-37029569e0db
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668489963052	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668490027393	Marionette	INFO	Stopped listening on port 54772
+1668504762085	geckodriver	INFO	Listening on 127.0.0.1:60281
+1668504765234	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "60282" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilekzbJTp"
+1668504765565	Marionette	INFO	Marionette enabled
+1668504765569	Marionette	INFO	Listening on port 60291
+WebDriver BiDi listening on ws://127.0.0.1:60282
+Read port: 60291
+1668504765776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilekzbJTp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60282/devtools/browser/846dbcb1-5561-450b-baa5-bc8a413078b8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668504768892	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668504776006	Marionette	INFO	Stopped listening on port 60291
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 12692, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668591199193	geckodriver	INFO	Listening on 127.0.0.1:58885
+1668591202317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "58886" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileqsDQHe"
+1668591214499	geckodriver	INFO	Listening on 127.0.0.1:58927
+1668591217560	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "58928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileSFIOd6"
+1668591217897	Marionette	INFO	Marionette enabled
+1668591217902	Marionette	INFO	Listening on port 58937
+WebDriver BiDi listening on ws://127.0.0.1:58928
+Read port: 58937
+1668591218126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileSFIOd6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58928/devtools/browser/0c97e67a-67a8-4ec2-b303-7b02dfbb82ac
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668591221520	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668591224778	Marionette	INFO	Stopped listening on port 58937
+[Parent 29568, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 29568, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

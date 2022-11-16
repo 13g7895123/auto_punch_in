@@ -6,13 +6,14 @@ from config.config import *
 from line_notify import *
 import datetime
 import warnings
+import time
 
 # 關閉警告
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 # 關閉瀏覽器通知視窗
 options = webdriver.FirefoxOptions()
-options.add_argument('--headless')
+# options.add_argument('--headless')
 options.add_argument('--disable-popup-blocking')
 
 # 爬蟲配置
@@ -87,8 +88,10 @@ def punch_in():
         driver.find_element(By.XPATH, "//button[@class='btn btn-outline-primary']").click()    # 執行打卡
         driver.find_element(By.XPATH, "//button[@class='btn btn-primary']").click()
         alert = driver.switch_to.alert  # 切換至警告視窗
-        alert.accept()                  # 點擊確定
+        alert.accept()   # 點擊確定
+        time.sleep(3)
         punch_in_finish = check_punch_in(1)     # 確認打卡完成
+        print('打卡狀態確認: ' + str(punch_in_finish))
         if punch_in_finish == 1:                # 1為打卡完成
             line_notify('\n上班打卡作業完成')
         else:
@@ -106,7 +109,9 @@ def punch_out():
         driver.find_element(By.XPATH, "//button[@class='btn btn-danger']").click()
         alert = driver.switch_to.alert  # 切換至警告視窗
         alert.accept()  # 點擊確定
+        time.sleep(3)
         punch_out_finish = check_punch_out(1)  # 確認打卡完成
+        print('打卡狀態確認: ' + str(punch_out_finish))
         if punch_out_finish == 1:              # 1為打卡完成
             line_notify('\n下班打卡作業完成')
         else:
@@ -115,8 +120,9 @@ def punch_out():
         line_notify('\n下班打卡作業未完成，請重新確認')
     driver.quit()
 
+
 # 測試用
 # login()
-# driver.find_element(By.XPATH, "//button[@class='btn btn-outline-primary']").click()  # 執行打卡
+# driver.find_element(By.XPATH, "//button[@class='btn btn-outline-danger ']").click()  # 執行打卡
 # input('test')
 # driver.quit()
