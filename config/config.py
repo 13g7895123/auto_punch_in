@@ -14,9 +14,9 @@ token = 'W4Trvnii3ORUZpusao0lqIAsLVWFXqhoxTyyOwjVBb5'
 
 # punch_time
 punch_in_morning = '7:55, 8:00'
-punch_in_noon = '13:55, 13:30'
+punch_in_noon = '13:25, 13:30'
 punch_out_noon = '12:00, 12:05'
-punch_out_afternoon = '13:55, 13:30'
+punch_out_afternoon = '17:30, 17:35'
 
 punch_in_morning_start = punch_in_morning.split(', ')[0]
 punch_in_morning_end = punch_in_morning.split(', ')[1]
