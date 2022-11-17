@@ -1284,3 +1284,45 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
 1668642988707	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1668642991994	Marionette	INFO	Stopped listening on port 55234
+1668653199990	geckodriver	INFO	Listening on 127.0.0.1:51517
+1668653203086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-popup-blocking" "--remote-debugging-port" "51518" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileFn1aDj"
+*** You are running in headless mode.
+1668653203404	Marionette	INFO	Marionette enabled
+1668653203409	Marionette	INFO	Listening on port 51529
+Read port: 51529
+WebDriver BiDi listening on ws://127.0.0.1:51518
+1668653203500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileFn1aDj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51518/devtools/browser/2d0b5d19-488e-43a6-abe5-d21ada9226e1
+1668657645643	geckodriver	INFO	Listening on 127.0.0.1:53666
+1668657648696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-popup-blocking" "--remote-debugging-port" "53667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofiledxvNVp"
+*** You are running in headless mode.
+1668657649023	Marionette	INFO	Marionette enabled
+1668657649028	Marionette	INFO	Listening on port 53678
+WebDriver BiDi listening on ws://127.0.0.1:53667
+Read port: 53678
+1668657649231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofiledxvNVp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53667/devtools/browser/4e1429f9-e3e7-48a3-92b8-80b8221edc89
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668657654953	Marionette	INFO	Stopped listening on port 53678
+[Parent 30028, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668657676404	geckodriver	INFO	Listening on 127.0.0.1:53748
+1668657679447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-popup-blocking" "--remote-debugging-port" "53749" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileyFDVjv"
+*** You are running in headless mode.
+1668657680315	Marionette	INFO	Marionette enabled
+1668657680325	Marionette	INFO	Listening on port 53787
+Read port: 53787
+WebDriver BiDi listening on ws://127.0.0.1:53749
+1668657680577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileyFDVjv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53749/devtools/browser/179f8f46-00e1-4f63-8c88-05c419142405
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668657685110	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668657688366	Marionette	INFO	Stopped listening on port 53787
+[Parent 30536, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

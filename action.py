@@ -64,17 +64,17 @@ def check_punch_out(active):
     now_time = datetime.datetime.now().strftime('%H:%M')
     if active == 0:
         # 判斷時間及打卡狀態
-        if punch_out_noon_start < now_time < punch_out_noon_end and punch_count == 1:
+        if punch_out_noon_start <= now_time <= punch_out_noon_end and punch_count == 1:
             punch_out_able = 1
-        elif punch_out_afternoon_start < now_time < punch_out_afternoon_end and punch_count == 3:
+        elif punch_out_afternoon_start <= now_time <= punch_out_afternoon_end and punch_count == 3:
             punch_out_able = 1
         else:
             punch_out_able = 0
         return punch_out_able
     elif active == 1:
-        if punch_out_noon_start < now_time < punch_out_noon_end and punch_count == 2:
+        if punch_out_noon_start <= now_time <= punch_out_noon_end and punch_count == 2:
             punch_out_finish = 1
-        elif punch_out_afternoon_start < now_time < punch_out_afternoon_end and punch_count == 4:
+        elif punch_out_afternoon_start <= now_time <= punch_out_afternoon_end and punch_count == 4:
             punch_out_finish = 1
         else:
             punch_out_finish = 0
