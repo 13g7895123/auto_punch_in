@@ -1260,3 +1260,27 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1668591224778	Marionette	INFO	Stopped listening on port 58937
 [Parent 29568, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 [Parent 29568, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668642927404	geckodriver	INFO	Listening on 127.0.0.1:55175
+1668642930504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "55176" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilecsVGqB"
+1668642930811	Marionette	INFO	Marionette enabled
+1668642930815	Marionette	INFO	Listening on port 55185
+Read port: 55185
+WebDriver BiDi listening on ws://127.0.0.1:55176
+1668642930905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilecsVGqB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55176/devtools/browser/b7a09d87-6127-4828-8c66-dbc808030f3d
+1668642949172	Marionette	INFO	Stopped listening on port 55185
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668642981459	geckodriver	INFO	Listening on 127.0.0.1:55220
+1668642984498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugging-port" "55221" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileJPLPlJ"
+1668642984879	Marionette	INFO	Marionette enabled
+1668642984884	Marionette	INFO	Listening on port 55234
+WebDriver BiDi listening on ws://127.0.0.1:55221
+Read port: 55234
+1668642985010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileJPLPlJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55221/devtools/browser/b7134812-64f2-42ad-9dd6-b8c22700879e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://clock.eng-astra.com.tw."
+1668642988707	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668642991994	Marionette	INFO	Stopped listening on port 55234

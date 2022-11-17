@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 # 關閉瀏覽器通知視窗
 options = webdriver.FirefoxOptions()
-# options.add_argument('--headless')
+options.add_argument('--headless')
 options.add_argument('--disable-popup-blocking')
 
 # 爬蟲配置
@@ -40,17 +40,17 @@ def check_punch_in(active):
     now_time = datetime.datetime.now().strftime('%H:%M')
     if active == 0:
         # 判斷時間及打卡狀態
-        if '07:55' < now_time < '08:00' and punch_count == 0:
+        if punch_in_morning_start <= now_time < punch_in_morning_end and punch_count == 0:
             punch_in_able = 1
-        elif '13:25' < now_time < '13:30' and punch_count == 2:
+        elif punch_in_noon_start <= now_time < punch_in_noon_end and punch_count == 2:
             punch_in_able = 1
         else:
             punch_in_able = 0
         return punch_in_able
     elif active == 1:
-        if '07:55' < now_time < '08:00' and punch_count == 1:
+        if punch_in_morning_start <= now_time < punch_in_morning_end and punch_count == 1:
             punch_in_finish = 1
-        elif '13:25' < now_time < '13:30' and punch_count == 3:
+        elif punch_in_noon_start <= now_time < punch_in_noon_end and punch_count == 3:
             punch_in_finish = 1
         else:
             punch_in_finish = 0
@@ -64,17 +64,17 @@ def check_punch_out(active):
     now_time = datetime.datetime.now().strftime('%H:%M')
     if active == 0:
         # 判斷時間及打卡狀態
-        if '12:00' < now_time < '12:05' and punch_count == 1:
+        if punch_out_noon_start < now_time < punch_out_noon_end and punch_count == 1:
             punch_out_able = 1
-        elif '17:30' < now_time < '17:35' and punch_count == 3:
+        elif punch_out_afternoon_start < now_time < punch_out_afternoon_end and punch_count == 3:
             punch_out_able = 1
         else:
             punch_out_able = 0
         return punch_out_able
     elif active == 1:
-        if '12:00' < now_time < '12:05' and punch_count == 2:
+        if punch_out_noon_start < now_time < punch_out_noon_end and punch_count == 2:
             punch_out_finish = 1
-        elif '17:30' < now_time < '17:35' and punch_count == 4:
+        elif punch_out_afternoon_start < now_time < punch_out_afternoon_end and punch_count == 4:
             punch_out_finish = 1
         else:
             punch_out_finish = 0
