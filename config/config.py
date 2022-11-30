@@ -13,7 +13,7 @@ pwd = 'Astrawm867'
 token = 'W4Trvnii3ORUZpusao0lqIAsLVWFXqhoxTyyOwjVBb5'
 
 # punch_time
-punch_in_morning = '7:55, 8:00'
+punch_in_morning = '07:50, 08:00'
 punch_in_noon = '13:25, 13:30'
 punch_out_noon = '12:00, 12:05'
 punch_out_afternoon = '17:30, 17:35'
