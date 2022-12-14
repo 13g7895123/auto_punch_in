@@ -5,7 +5,7 @@ from config.config import *
 import time
 import random
 
-delay_sec = random.randint(1, 30)
+delay_sec = random.randint(1, delay_time)
 print(f'程式將在{delay_sec}秒後運行...')
 time.sleep(delay_sec)
 
