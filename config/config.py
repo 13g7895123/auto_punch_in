@@ -27,4 +27,4 @@ punch_out_noon_end = punch_out_noon.split(', ')[1]
 punch_out_afternoon_start = punch_out_afternoon.split(', ')[0]
 punch_out_afternoon_end = punch_out_afternoon.split(', ')[1]
 
-delay_time = 10
+delay_time = 5
